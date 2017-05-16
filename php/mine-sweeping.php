@@ -1,5 +1,6 @@
 /*
 * 初始化雷区
+* $mine这个参数没什么用，因为其他函数对这个参数依赖太深了。
 */
 function init($n=12,$line=9,$mine='b'){
     $temp = range(0,$line*$line-1);
